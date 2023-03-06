@@ -1,0 +1,159 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Category-slider {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 1rem;
+}
+
+.category-name {
+    font-size: 1.5rem;
+}
+
+.category-stick-img img {
+    width: 100%;
+    /* width: 300px; */
+    min-height: 290px;
+    max-height: 300px;
+    border-radius: 30px;
+}
+
+.category-card {
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0.2rem;
+    /* border: 0.5px solid #d3d3d3; */
+    cursor: pointer;
+    border-radius: 15px;
+    width: 200px;
+    max-height: 280px;
+    min-height: 280px;
+}
+
+
+.category-card img {
+    margin: 4px;
+    width: auto 100%;
+}
+
+.btn-category {
+    border-radius: 50px;
+    margin: 2px 0px;
+    background-color: #0e5176;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    outline: 0;
+    padding: 2px;
+    text-align: center;
+    width: 47%;
+}
+
+.btn-category:hover {
+    opacity: 0.9;
+}
+
+/* p.product-description {
+    padding: 5px 8px;
+    font-size: 0.6rem;
+} */
+
+/* .product-description {
+    margin: 0;
+    padding: 0;
+} */
+
+.linkedin-bg {
+    background-color: #0072b1;
+}
+
+.instagram-bg {
+    background-color: #d62976;
+}
+
+
+/* mediaqueries for Category slider */
+@media(max-width:576px) {
+
+ 
+
+
+}
+
+@media(max-width:992px) and (min-width:768px) {
+    .category-card {
+        width: 180px;
+    }
+}
+
+@media(max-width:992px) and (min-width:768px) {
+    .category-stick-img {
+        display: none;
+    }
+
+    .Category-slider {
+        display: grid;
+        grid-template-columns: 4fr;
+        margin: 1rem;
+    }
+}
+
+@media(max-width:768px) and (min-width:576px) {
+    .category-stick-img {
+        display: none;
+    }
+
+    .Category-slider {
+        display: grid;
+        grid-template-columns: 3fr;
+        margin: 1rem;
+    }
+}
+
+@media (max-width:576px) {
+    .category-stick-img {
+        display: none;
+    }
+
+    .Category-slider {
+        display: grid;
+        grid-template-columns: 2fr;
+        margin: 1rem;
+    }
+
+    .category-card {
+        max-height: 220px;
+        min-height: 230px;
+        width: 150px;
+        margin: auto;
+    }
+
+    .btn-category {
+        font-size: 10px;
+        padding: 2px;
+        width: 47%;
+    }
+
+
+    ul.react-multi-carousel-track {
+        margin: 2px 0px;
+    }
+
+    /* p.product-description {
+        padding: 2px 4px;
+        font-size: 0.5rem;
+    } */
+
+    .category-name {
+        font-size: 14px;
+    }
+
+}

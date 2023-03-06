@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-supplier {
+    margin: 0.8rem;
+}
+
+.supplier-img {
+    max-width: 100px;
+    min-width: 80px;
+    height: auto;
+    cursor: pointer;
+    margin: auto;
+}
+
+.supplier-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0.5rem;
+    border: 0.5px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+@media(max-width:576px) {
+    .supplier-img {
+        max-width: 50px;
+        min-width: 40px;
+    }
+
+
+    .supplier-container {
+        margin: auto;
+        width: 80%;
+        height: auto;
+    }
+}

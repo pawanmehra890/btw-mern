@@ -1,0 +1,154 @@
+.Product-info-container{
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.Product-images-container {
+    /* height: 100vh; */
+    /* margin-top: 3rem; */
+    /* margin-top: 3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.product-info-images {
+    width: 500px;
+    /* height: auto; */
+    /* margin: 0; */
+    padding: 30px;
+
+
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid #dddbdb; */
+    /* padding: 10px; */
+}
+
+
+
+/*  */
+.product-images-slider {
+    border: 1px solid #dddbdb;
+    height: 50vh;
+}
+
+.product-images-slider .swiper-slide{
+    width: 500px;
+}
+
+.product-images-slider .swiper-slide {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.product-images-slider .swiper-slide img {
+    height: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+}
+
+.product-images-slider .swiper-button-prev {
+    left: 0;
+    color: grey;
+}
+
+.product-images-slider .swiper-button-next {
+    right: 0;
+    color: grey;
+}
+
+/*  */
+.product-images-slider-thumbs .swiper-slide {
+    /* height: 10vh; */
+    cursor: pointer;
+    border: 1px solid #dddbdb;
+}
+
+
+
+.product-images-slider-thumbs {
+    margin-top: 10px;
+}
+
+
+.product-images-slider-thumbs .swiper-slide:active {
+    border-color: #0e5276;
+}
+
+.product-images-slider-thumbs-wrapper {
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-images-slider-thumbs-wrapper img {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+/* .product-images-slider-thumbs .swiper-slide .product-images-slider-thumbs-wrapper {} */
+
+
+
+
+/* **************************************** */
+
+
+.product-details-info{
+    padding: 0px 1rem;
+    /* height: 77vh; */
+    /* height: auto; */
+    /* border: 1px solid #c3c3c3; */
+}
+
+
+
+
+.Product-info-details strong{
+    font-size: 1.3rem;
+}
+
+.Product-info-details p{
+    margin: 0;
+}
+
+.order-qty-sec{
+    margin: 1rem 0rem;
+}
+
+.Product-info-container .btn-send-enquiry{
+    border: none;
+    background-color: #0e5176;
+    color: white;
+    font-size: 1rem;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+
+/* Section 2 */
+.Product-description{
+    margin: 2rem;
+}
+
+.Company-details-section{
+    margin: 2rem;
+}
+
+
+/* Related Products */
+.Related-products{
+    margin-top: 2rem;
+}
+
+/* Mediaquery for product page */
